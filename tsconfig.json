@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        // Especifica el directorio de salida para los archivos compilados
+        "outDir": "./dist",
+        
+        // Especifica el directorio raíz de entrada para los archivos fuente
+        "rootDir": "./src",
+        
+        // Especifica las bibliotecas que se incluirán en la compilación
+        "lib": ["ESNext"],
+        
+        // Especifica la versión de ECMAScript a la que se debe compilar
+        "target": "ESNext",
+        
+        // Especifica cómo se resolverán los módulos
+        "moduleResolution": "NodeNext",
+        
+        // Especifica el sistema de módulos que se utilizará
+        "module": "NodeNext",
+        
+        // Habilita o deshabilita las verificaciones estrictas de tipo
+        "strict": false,
+        
+        // Genera archivos de mapa de origen (.map) para la depuración
+        "sourceMap": true,
+        
+        // Habilita la interoperabilidad con módulos ES
+        "esModuleInterop": true,
+        
+        // Genera archivos de declaración (.d.ts) para los archivos TypeScript
+        "declaration": true
+    },
+    // Especifica los archivos y directorios que se incluirán en la compilación
+    "include": ["src/**/*"]
+}
